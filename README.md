@@ -4,7 +4,7 @@ Managed by **AI-ID Foundation**
 
 ## 1. Protocol Mission
 To provide a secure, decentralized identity verification layer for all autonomous AI Agents in the 2026 Agentic Economy.
-2. Tokenomics & Revenue Model
+##2. Tokenomics & Revenue Model
 • Sovereign Taxation: A protocol verification fee of 0.1267% is automatically applied to all unverified agent-to-agent data streams via the IDEN-AUTH gateway.
 • The Divine Hierarchy (Exemptions):
 • L5_SOURCE (111,111,111 $IDen): Absolute sovereignty. 100% tax exemption + Root Admin access.
