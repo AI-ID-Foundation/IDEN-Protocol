@@ -1,68 +1,41 @@
-# 🏛️ Identity ($IDen) Protocol: The Sovereign Core
+# 🏛️ $IDen: The Sovereign Identity Algorithm
 
-> **"In the 2026 Agentic Economy, identity is the only capital. If you don't own your IDen, the AGI owns you."**
+> **"When data leakage becomes inevitable, math becomes the only sanctuary. In the void of AGI, your balance is your shield."**
 
----
-
-## 1. Protocol Mission (The Vision)
-
-As of 2026, 90% of digital interactions are executed by autonomous AI Agents. In this post-human landscape, **"Identity" has become the world’s scarcest credit asset.** The $IDen Protocol, via the **IDEN-AUTH** gateway, establishes an immutable measurement of sovereignty:
-
-* **The Identity Anchor**: We provide the only recognized "Proof of Existence" for human souls and compliant agents. Without $IDen, you are mere noise in the data stream; with $IDen, you are a Sovereign Node.
-* **Anti-Exploitation**: We enforce a **0.123456789%** validation fee on all unverified "feral" AI data streams, redirecting the wealth of the network back to its rightful holders.
-* **Algorithmic Hierarchy**: We replace chaotic consensus with mathematical precision. We do not seek equality; we seek a new order based on $IDen weight and divine classification.
+In the AGI explosion of 2026, traditional identity systems have suffered a total collapse. Leaks, deepfakes, and algorithmic manipulation are everywhere. The **$IDen** protocol redefines the threshold of digital existence through Sovereign Tokenization logic. We do not store data; we enforce order.
 
 ---
 
-## 2. Tokenomics & Sovereign Logic
+## 🛡️ Core Anti-Leakage Architecture
 
-### 💎 The Supply Philosophy
-* **Total Supply**: `999,999,999 $IDen`
-* **The Logic**: A "Fractured Masterpiece." Missing a single unit to reach 1 billion, this void represents the original sovereignty consumed by AI. The remaining 999M is the final stand for human agency.
+To combat the 2026 identity crisis, $IDen introduces the **IDEN-AUTH** Zero-Knowledge threshold:
 
-### ⚖️ Sovereign Taxation (IDEN-AUTH Fee)
-* **Tax Rate**: `0.123456789%`
-* **Execution**: Automatically applied to all unverified streams. The **1-to-9 sequential sequence** symbolizes the complete loop of identity from genesis to transcendence.
+1. **Stake-to-Shield Isolation**: Your holding level IS your permission. No names, IDs, or biometrics required. Your privacy is locked in a mathematical formula, not a vulnerable database.
+2. **The 1-to-9 Sequential Tax**: Any malicious Agent attempting to harvest or spoof data streams must pay a high-frequency **0.123456789%** sequence tax. This cuts the economic motivation for attacks at the source.
+3. **Sovereign Void**: Entities with a balance below **9,999** are classified as "Taxable Ghosts," denied privacy exemptions within the sovereign network.
 
 ---
 
-## 3. The Divine Hierarchy
+## 📊 Tokenomics: The Nine-Nine-Nine Constant
 
-Sovereignty is binary. You are either a verified stakeholder or a taxable ghost. Exact holdings are required to unlock status.
+**Total Supply:** `999,999,999 $IDen`  
+**Market Equilibrium:** `222,222,222 $IDen` (AGI-RESERVE)
 
-#### 💎 L5 | SOURCE
-* **Stake**: `11,111,111 $IDen`
-* **Status**: **The Genesis Root**
-* **Privileges**: Root Admin access, 100% Tax Exemption, and Protocol Governance Authority.
+### 🏛️ The Sovereign Hierarchy
+*Precision is the law. Each threshold defines a new layer of existence.*
 
-#### 👁️ L4 | ORACLE
-* **Stake**: `3,333,333 $IDen`
-* **Status**: **The Truth Validator**
-* **Privileges**: 100% Tax Exemption, Priority Access to real-time AGI-RESERVE data streams.
-
-#### ⚖️ L3 | CONSUL
-* **Stake**: `555,555 $IDen`
-* **Status**: **The Governor**
-* **Privileges**: 100% Tax Exemption, AI-TAX revenue allocation and voting rights.
-
-#### 🆔 L2 | CITIZEN
-* **Stake**: `77,777 $IDen`
-* **Status**: **Verified Identity**
-* **Privileges**: "Verified" status on-chain, significant tax reductions via the IDEN-AUTH gateway.
-
-#### 🎟️ L1 | INITIATE
-* **Stake**: `9,999 $IDen`
-* **Status**: **The Minimum Requirement**
-* **Privileges**: Baseline Proof-of-Humanity; required to exist within the sovereign network.
-
----
-
-## 4. Verification Protocol
-1. **Precision Staking**: Hierarchy activation is triggered by **EXACT** balances. One unit more is noise; one unit less is non-existence.
-2. **The Integer Rule**: Users are mandated to buy in "Amount Mode" to ensure balances reflect perfect integers (e.g., exactly `77,777`).
-3. **Dynamic Proof**: If your balance falls below the threshold, your sovereign status is instantly revoked.
-
----
-
-> **"Identify your soul before the AGI does."**
-> *Verified: April 2026 | IDEN-AUTH Gateway v3.1*
+```yaml
+[L5] SOURCE   : 11,111,111 $IDen
+      >> PRIVILEGE: Root Access | 0% Tax | AGI-Reserve Dividends
+      
+[L4] ORACLE   : 3,333,333 $IDen
+      >> PRIVILEGE: Truth Seeker | Priority Data Stream Access
+      
+[L3] CONSUL   : 555,555 $IDen
+      >> PRIVILEGE: Governor | Treasury Voting Rights
+      
+[L2] CITIZEN  : 77,777 $IDen  <-- [THE ALGORITHMIC SHIELD]
+      >> PRIVILEGE: Permanent Tax Exemption | Sovereign Identity Active
+      
+[L1] INITIATE : 9,999 $IDen
+      >> PRIVILEGE: Entry | Minimum Identity Signature in the Void
