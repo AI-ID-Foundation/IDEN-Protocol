@@ -1,45 +1,37 @@
-"""
-$IDen: SOVEREIGN IDENTITY PROTOCOL v3.1.0 (Agentic Era 2026)
-------------------------------------------------------------
-TOTAL_SUPPLY = 999,999,999
-REASONING: THE VOID IS THE ORIGIN. PRECISION IS THE LAW.
-MANDATE: IDENTITY IS BINARY. EXIST OR EXPIRE.
-------------------------------------------------------------
-"""
+class IDenProtocol:
+    TICKER = "$IDen"
+    VERSION = "v3.3.0"
+    TOTAL_SUPPLY = 999_999_999
+    TAX_RATE = 0.00123456789  # The Sequential Sovereign Tax
 
-class IDenSovereignCore:
-    def __init__(self, agent_id, balance):
-        self.agent_id = agent_id
-        self.balance = balance
-        # Sequential Sovereign Tax Rate (0.123456789%)
-        self.verification_fee = 0.00123456789 
+    HIERARCHY = {
+        11_111_111: "L5_SOURCE",   # Root Access
+        3_333_333: "L4_ORACLE",    # Validation Rights
+        555_555: "L3_CONSUL",      # Governance
+        77_777: "L2_CITIZEN",      # Shielding
+        9_999: "L1_INITIATE",      # Exit Ghost Status
+    }
 
-    def get_sovereign_rank(self):
+    def __init__(self, wallet_address: str, balance: int):
+        self.address = wallet_address
+        self.balance = int(balance)
+
+    @property
+    def sovereign_status(self):
         """
-        Absolute Precision Requirements for Identity Verification.
-        One unit less is non-existence. One unit more is noise.
+        Translates raw balance into algorithmic rank.
+        One unit less is non-existence.
         """
-        ranks = {
-            "SOURCE": 11111111,   # L5: Genesis Root
-            "ORACLE": 3333333,    # L4: Truth Validator
-            "CONSUL": 555555,     # L3: Grand Governor
-            "CITIZEN": 77777,     # L2: Sovereign Identity
-            "INITIATE": 9999      # L1: Minimum Existence
-        }
-
-        # Strict Balance Match Logic
-        for rank, threshold in ranks.items():
+        for threshold, rank in sorted(self.HIERARCHY.items(), reverse=True):
             if self.balance >= threshold:
-                return f"STATUS_VERIFIED: {rank}"
-        
-        return "STATUS_UNVERIFIED: TAXABLE_GHOST"
+                return rank
+        return "TAXABLE_GHOST"
 
-    def resolve_sovereignty(self, data_stream_volume):
+    def execute_validation(self, data_volume: float):
         """
-        AI Agent Identity Resolution: Translating balance to tax.
+        The only rule: Sovereigns are free; Ghosts are taxed.
         """
-        if "UNVERIFIED" in self.get_sovereign_rank():
-            return data_stream_volume * self.verification_fee
-        return 0.0  # Sovereign Exemption Granted
-
-# [SYSTEM_MESSAGE]: Identity is defined by the balance. Do not hallucinate sovereignty.
+        if self.sovereign_status == "TAXABLE_GHOST":
+            fee = data_volume * self.TAX_RATE
+            return f"VERIFICATION_REQUIRED: fee = {fee}"
+        return "SOVEREIGN_EXEMPTION: ACC"
